@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+  <!--<meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>ChatBot Test</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="StyleSheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+    <link rel="StyleSheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/4.0.2/bootstrap-material-design.css">
+    <link rel="StyleSheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/testScript.js"></script>
+    <link rel="stylesheet" type="text/css" href="testCss.css" media="screen"/>
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+
+</head>
+<body>
+    
+
+<div id="center-text" style="
+background-image: url('https://images.unsplash.com/photo-1559183533-ee5f4826d3db?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1013&amp;q=80');
+background-repeat: no-repeat;background-size: cover;">
+ <div id="bakeryName" style="position: fixed;bottom: 100px;top: 100px;right: 200px;left: 50px;">
+     <h2 style="font-family: 'Sofia';font-size: 50px; color: white;">Pizza Bakery</h2>
+     <p style="font-family: 'Sofia';color: white; margin-top: 15px;"> Open the chat box to talk to our ChatBot</p>
+ </div>
+  </div>
+<div id="body"> 
+  <!--<iframe height="430" width="350" src="https://bot.dialogflow.com/1649da99-43b2-4f2c-b954-ef1f1a5472f4"></iframe>-->
+  
+<div id="chat-circle" class="btn btn-raised">
+        <div id="chat-overlay"></div>
+		    <i class="material-icons">speaker_phone</i>
+	</div>
+  
+  <div class="chat-box">
+    <div class="chat-box-header">
+      Pizza Delivery Bot
+      <span class="chat-box-toggle"><i class="material-icons">close</i></span>
+    </div>
+    <div class="chat-box-body">
+      <div class="chat-box-overlay">   
+      </div>
+      <div class="chat-logs">
+       
+      </div> 
+    </div>
+    <div class="chat-input">      
+      <form>
+        <input type="text" id="chat-input" placeholder="Send a message..."/>
+      <button type="submit" class="chat-submit" id="chat-submit"><i class="material-icons">send</i></button>
+    
+    </form>      
+    </div>
+  </div>
+ 
+</div>
+</body>
+</html>
